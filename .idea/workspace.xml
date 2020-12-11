@@ -16,7 +16,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="434fd55a-3428-491a-a883-b1dc02f87abe" name="Default Changelist" comment="Скрылся?" />
+    <list default="true" id="434fd55a-3428-491a-a883-b1dc02f87abe" name="Default Changelist" comment="Скрылся?">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error.txt" beforeDir="false" afterPath="$PROJECT_DIR$/error.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +143,7 @@
       <updated>1607609127825</updated>
       <workItem from="1607609147044" duration="2171000" />
       <workItem from="1607612837117" duration="3662000" />
-      <workItem from="1607662509601" duration="4043000" />
+      <workItem from="1607662509601" duration="4671000" />
     </task>
     <task id="LOCAL-00001" summary="Начинаем работу над новой задачей. Шифр Цезаря.">
       <created>1607665013270</created>
@@ -227,33 +231,33 @@
       <screen x="54" y="25" width="1386" height="875" />
     </state>
     <state x="156" y="125" width="1184" height="658" key="DiffContextDialog/54.25.1386.875@54.25.1386.875" timestamp="1607667047814" />
-    <state width="1342" height="215" key="GridCell.Tab.0.bottom" timestamp="1607666869760">
+    <state width="1342" height="215" key="GridCell.Tab.0.bottom" timestamp="1607668086026">
       <screen x="54" y="25" width="1386" height="875" />
     </state>
     <state width="1342" height="215" key="GridCell.Tab.0.bottom/53.25.1387.875@53.25.1387.875" timestamp="1607627753290" />
-    <state width="1342" height="215" key="GridCell.Tab.0.bottom/54.25.1386.875@54.25.1386.875" timestamp="1607666869760" />
-    <state width="1342" height="215" key="GridCell.Tab.0.center" timestamp="1607666869759">
+    <state width="1342" height="215" key="GridCell.Tab.0.bottom/54.25.1386.875@54.25.1386.875" timestamp="1607668086026" />
+    <state width="1342" height="215" key="GridCell.Tab.0.center" timestamp="1607668086025">
       <screen x="54" y="25" width="1386" height="875" />
     </state>
     <state width="1342" height="215" key="GridCell.Tab.0.center/53.25.1387.875@53.25.1387.875" timestamp="1607627753289" />
-    <state width="1342" height="215" key="GridCell.Tab.0.center/54.25.1386.875@54.25.1386.875" timestamp="1607666869759" />
-    <state width="1342" height="215" key="GridCell.Tab.0.left" timestamp="1607666869759">
+    <state width="1342" height="215" key="GridCell.Tab.0.center/54.25.1386.875@54.25.1386.875" timestamp="1607668086025" />
+    <state width="1342" height="215" key="GridCell.Tab.0.left" timestamp="1607668086025">
       <screen x="54" y="25" width="1386" height="875" />
     </state>
     <state width="1342" height="215" key="GridCell.Tab.0.left/53.25.1387.875@53.25.1387.875" timestamp="1607627753286" />
-    <state width="1342" height="215" key="GridCell.Tab.0.left/54.25.1386.875@54.25.1386.875" timestamp="1607666869759" />
-    <state width="1342" height="215" key="GridCell.Tab.0.right" timestamp="1607666869760">
+    <state width="1342" height="215" key="GridCell.Tab.0.left/54.25.1386.875@54.25.1386.875" timestamp="1607668086025" />
+    <state width="1342" height="215" key="GridCell.Tab.0.right" timestamp="1607668086026">
       <screen x="54" y="25" width="1386" height="875" />
     </state>
     <state width="1342" height="215" key="GridCell.Tab.0.right/53.25.1387.875@53.25.1387.875" timestamp="1607627753289" />
-    <state width="1342" height="215" key="GridCell.Tab.0.right/54.25.1386.875@54.25.1386.875" timestamp="1607666869760" />
+    <state width="1342" height="215" key="GridCell.Tab.0.right/54.25.1386.875@54.25.1386.875" timestamp="1607668086026" />
     <state x="348" y="191" key="Vcs.Push.Dialog.v2" timestamp="1607667452787">
       <screen x="54" y="25" width="1386" height="875" />
     </state>
     <state x="348" y="191" key="Vcs.Push.Dialog.v2/54.25.1386.875@54.25.1386.875" timestamp="1607667452787" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Stepic_MiniPr$draft.coverage" NAME="draft Coverage Results" MODIFIED="1607666869737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Stepic_MiniPr$draft.coverage" NAME="draft Coverage Results" MODIFIED="1607667642704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepic_MiniPr$Caesar_s_cipher.coverage" NAME="Caesar's_cipher Coverage Results" MODIFIED="1607666863790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Stepic_MiniPr$main.coverage" NAME="main Coverage Results" MODIFIED="1607609174951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
