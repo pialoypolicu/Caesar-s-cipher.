@@ -1,3 +1,4 @@
 # git and github course
 
-crash
+Мини проект.
+Решение задач на Stepic.
