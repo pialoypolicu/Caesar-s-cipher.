@@ -68,9 +68,8 @@ action = check_txt(input('Требуется зашифровать текст? 
 
 
 if action in 'нет':
-    if action in 'нет':
-        k = int(input('Введите ключ: ')) if check_txt(input('Вам известен ключ? (да - "да"); (нет - "нет"): ').lower(),
-                                                      'key') in 'да' else 0
+    k = int(input('Введите ключ: ')) if check_txt(input('Вам известен ключ? (да - "да"); (нет - "нет"): ').lower(),
+                                                  'key') in 'да' else 0
     x = input('Введите текст, который надо дешифровать: ')
     if k == 0:
         while k != -s:
