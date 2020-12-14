@@ -1,5 +1,5 @@
 print('Шифр Цезаря.')
-print('Данная программа помогает зашифровать текст, дешифровать текст и подобрать ключ для дешифровки.')
+print('Данная программа помогает зашифровать текст, дешифровать текст и подобрать ключ сдвига для дешифровки.')
 
 
 def cipher(type, key, txt):
@@ -45,14 +45,14 @@ def check_txt(txt, type):
     elif type == 'lang':
         while txt not in 'eng' and txt not in 'рус':
             print('Вы ввели недопустимое значения.')
-            txt = input('Выберите язык шифра. English - eng; Русский - рус: ').lower()
+            txt = input('Выберите язык текста. English - eng; Русский - рус: ').lower()
         return txt
     if type == 'action' and (txt in 'да' or txt in 'нет'):
         return txt
     elif type == 'action':
         while txt not in 'да' and txt not in 'нет':
             print('Вы ввели недопустимое значения.')
-            txt = input('(Зашифровать текст введите - да, расшифровать - нет): ').lower()
+            txt = input('(Зашифровать текст введите - да, дешифровать - нет): ').lower()
         return txt
     if type == 'key' and (txt in 'да' or txt in 'нет'):
         return txt
@@ -62,7 +62,7 @@ def check_txt(txt, type):
             txt = input('Если известен ключ, введита - да, если ключ надо найти, введите - нет: ').lower()
         return txt
 
-y = check_txt(input('Выбирете язык шифра. English - eng, Русский - рус: ').lower(), 'lang')
+y = check_txt(input('Выбирете язык текста. English - eng, Русский - рус: ').lower(), 'lang')
 s = 31 if y in 'рус' else 25
 action = check_txt(input('Требуется зашифровать текст? ("да" или "нет"): ').lower(), 'action')
 
@@ -83,6 +83,7 @@ else:
     k = int(input('Введите ключ: '))
     x = input('Введите текст, который надо зашифровать: ')
     print(cipher(y, k, x))
+    
 
 
 # Создал функцию проверки выбираемых параметров.
